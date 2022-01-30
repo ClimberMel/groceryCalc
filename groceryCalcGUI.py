@@ -32,7 +32,7 @@ def show_weightconv():
         conv = lbs_kg(s_weight)
     elif selection == 'Kg':
         w2 = ' Lb'
-        conv = lbs_kg(s_weight)
+        conv = kg_lbs(s_weight)
     else:
         showinfo(title='ERROR', 
                 message='You need to select a conversion')
